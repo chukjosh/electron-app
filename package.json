@@ -1,0 +1,17 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "author": "Joshua Chukwurah",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.3.1"
+  },
+  "dependencies": {
+    "electron-app": "file:"
+  },
+  "scripts": {
+    "start": "node api.js && electron ."
+  }
+}
